@@ -11,6 +11,7 @@ namespace GitTest1
             var name = Console.ReadLine();
             Console.WriteLine("Hello, " + name + "!");
             Console.WriteLine(name);
+            Console.WriteLine(name);
         }
     }
 }
