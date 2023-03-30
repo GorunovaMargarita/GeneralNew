@@ -7,12 +7,11 @@ namespace GitTest1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!");
-            var name = Console.ReadLine();
-            Console.WriteLine("Hello, " + name + "!");
-            Console.WriteLine(name);
-            Console.WriteLine(name);
-            Console.WriteLine("This is branch1");
+            Console.WriteLine("Please, enter your username.");
+            string username = Console.ReadLine();
+            Console.WriteLine("Hello, " + username + "!");
+            Console.WriteLine("Please, enter any for close.");
+            Console.ReadLine();
         }
     }
 }
