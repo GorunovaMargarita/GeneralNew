@@ -12,6 +12,7 @@ namespace GitTest1
             Console.WriteLine("Hello, " + name + "!");
             Console.WriteLine(name);
             Console.WriteLine(name);
+            Console.WriteLine("This is branch1");
         }
     }
 }
